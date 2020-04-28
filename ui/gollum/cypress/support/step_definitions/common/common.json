@@ -1,0 +1,8 @@
+{
+  "Givens": [
+    "I am viewing project with UUID {string}",
+    "I am viewing project {string}"
+  ],
+  "Whens": [],
+  "Thens": []
+}

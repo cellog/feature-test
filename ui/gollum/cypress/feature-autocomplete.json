@@ -1,0 +1,67 @@
+{
+  "definitions": {
+    "Features": [
+      "Feature 2",
+      "Project Roster",
+      "Candidate Results",
+      "Feature 3"
+    ],
+    "Givens": [
+      "I am viewing project with UUID {string}",
+      "I am viewing project {string}",
+      "I am logged in",
+      "I am viewing project \"[PRELOAD] Seeding Project v5\""
+    ],
+    "Whens": [
+      "I choose the Project Roster tab"
+    ],
+    "Thens": [
+      "Permissions should be visible",
+      "Row 1 should be \"akdubpyucj\""
+    ],
+    "Scenarios": [
+      "Viewing Project Roster tab",
+      "Table sorting",
+      "Startup"
+    ]
+  },
+  "fileIndex": {
+    "Feature 2": [
+      "ui/gollum/cypress/e2e/features/second.feature"
+    ],
+    "I am logged in": [
+      "ui/gollum/cypress/e2e/features/second.feature",
+      "ui/gollum/cypress/e2e/features/test.feature",
+      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+    ],
+    "I am viewing project \"[PRELOAD] Seeding Project v5\"": [
+      "ui/gollum/cypress/e2e/features/second.feature",
+      "ui/gollum/cypress/e2e/features/test.feature",
+      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+    ],
+    "I choose the Project Roster tab": [
+      "ui/gollum/cypress/e2e/features/second.feature",
+      "ui/gollum/cypress/e2e/features/test.feature",
+      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+    ],
+    "Permissions should be visible": [
+      "ui/gollum/cypress/e2e/features/second.feature",
+      "ui/gollum/cypress/e2e/features/test.feature",
+      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+    ],
+    "Row 1 should be \"akdubpyucj\"": [
+      "ui/gollum/cypress/e2e/features/second.feature",
+      "ui/gollum/cypress/e2e/features/test.feature",
+      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+    ],
+    "Project Roster": [
+      "ui/gollum/cypress/e2e/features/test.feature"
+    ],
+    "Candidate Results": [
+      "ui/gollum/cypress/e2e/features/third/amazing.feature"
+    ],
+    "Feature 3": [
+      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+    ]
+  }
+}
