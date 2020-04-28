@@ -1,6 +1,7 @@
 Feature: Feature 2
 
   Background: Startup
+    Given I am viewing project "fredy"
     Given I am logged in
     Given I am viewing project "[PRELOAD] Seeding Project v5"
 
