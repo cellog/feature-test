@@ -11,3 +11,4 @@ Feature: Project Roster
   Scenario: Table sorting
     When I choose the Project Roster tab
     Then Row 1 should be "akdubpyucj"
+    And I should be happy
