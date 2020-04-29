@@ -1,67 +1,187 @@
 {
   "definitions": {
-    "Features": [
-      "Feature 2",
-      "Project Roster",
-      "Candidate Results",
-      "Feature 3"
-    ],
+    "Features": ["Project Roster", "Workflows List"],
     "Givens": [
       "I am viewing project with UUID {string}",
       "I am viewing project {string}",
+      "I am on page {int}",
       "I am logged in",
-      "I am viewing project \"[PRELOAD] Seeding Project v5\""
+      "I am viewing project \"[PRELOAD] Seeding Project v5\"",
+      "I am viewing a project containing workflows",
+      "I am viewing the workflows list",
+      "the previous page should not be navigable",
+      "page 3 should be navigable",
+      "the next page should not be navigable",
+      "I am viewing a project with no workflows",
+      "Column headers should be \"Display Name\", \"Version\", \"Created on\", \"Created by\"",
+      "\"Display Name\" should be a \"name\"",
+      "\"Version\" should be a \"number\"",
+      "\"Created on\" should be a \"date\"",
+      "\"Created by\" should be a \"name\"",
+      "I should see \"create a new workflow\" in a link",
+      "I am viewing a project within which I do not have write access",
+      "I should not see \"create a new workflow\" in a link"
     ],
     "Whens": [
-      "I choose the Project Roster tab"
+      "I activate a link with text {string}",
+      "I activate a button with text {string}",
+      "I am viewing project \"[PRELOAD] Seeding Project v5\"",
+      "I choose the Project Roster tab",
+      "I freak out",
+      "I am viewing the workflows list",
+      "the previous page should not be navigable",
+      "I choose page 2",
+      "page 3 should be navigable",
+      "I navigate to the last page",
+      "the next page should not be navigable",
+      "I am viewing the workflows list",
+      "Column headers should be \"Display Name\", \"Version\", \"Created on\", \"Created by\"",
+      "viewing a workflow in the list",
+      "\"Display Name\" should be a \"name\"",
+      "\"Version\" should be a \"number\"",
+      "\"Created on\" should be a \"date\"",
+      "\"Created by\" should be a \"name\"",
+      "I select a workflow",
+      "I should see \"create a new workflow\" in a link",
+      "I activate a link with text \"create a new workflow\"",
+      "I activate a button with text \"New Workflow\"",
+      "I should not see \"create a new workflow\" in a link"
     ],
     "Thens": [
+      "I should see {string}",
+      "I should see {string} in a link",
+      "I should not see {string} in a link",
+      "the {string} button should be disabled",
+      "I should see {int} workflows",
+      "I choose page {int}",
+      "page {int} should be navigable",
+      "Column headers should be {string}, {string}, {string}, {string}",
+      "{string} should be a {string}",
+      "Row {int} should be {string}",
+      "I am viewing project \"[PRELOAD] Seeding Project v5\"",
       "Permissions should be visible",
-      "Row 1 should be \"akdubpyucj\""
+      "Row 1 should be \"akdubpyucj\"",
+      "I get happy",
+      "I am viewing the workflows list",
+      "I should see 20 workflows",
+      "the previous page should not be navigable",
+      "I should see records \"start-end\" with no total record count",
+      "page 3 should be navigable",
+      "I should see records \"start-end of total\"",
+      "the next page should not be navigable",
+      "I should see \"0-0 of 0\"",
+      "Column headers should be \"Display Name\", \"Version\", \"Created on\", \"Created by\"",
+      "\"Display Name\" should be a \"name\"",
+      "\"Version\" should be a \"number\"",
+      "\"Created on\" should be a \"date\"",
+      "\"Created by\" should be a \"name\"",
+      "I should navigate to the Workflow Builder Page",
+      "I should see \"There are currently no workflows in this project. Click to\"",
+      "I should see \"create a new workflow\" in a link",
+      "I should navigate to the New Workflow Builder Page",
+      "the \"New Workflow\" button should be disabled",
+      "I should not see \"create a new workflow\" in a link"
     ],
     "Scenarios": [
       "Viewing Project Roster tab",
       "Table sorting",
-      "Startup"
+      "This scenario will not be executed",
+      "Pagination",
+      "Workflow metadata",
+      "Selecting a workflow",
+      "Navigating to the New Workflow Builder Page"
     ]
   },
   "fileIndex": {
-    "Feature 2": [
-      "ui/gollum/cypress/e2e/features/second.feature"
-    ],
+    "Project Roster": ["ui/gollum/cypress/e2e/features/ProjectRoster.feature"],
     "I am logged in": [
-      "ui/gollum/cypress/e2e/features/second.feature",
-      "ui/gollum/cypress/e2e/features/test.feature",
-      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+      "ui/gollum/cypress/e2e/features/ProjectRoster.feature",
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
     ],
     "I am viewing project \"[PRELOAD] Seeding Project v5\"": [
-      "ui/gollum/cypress/e2e/features/second.feature",
-      "ui/gollum/cypress/e2e/features/test.feature",
-      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+      "ui/gollum/cypress/e2e/features/ProjectRoster.feature"
     ],
     "I choose the Project Roster tab": [
-      "ui/gollum/cypress/e2e/features/second.feature",
-      "ui/gollum/cypress/e2e/features/test.feature",
-      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+      "ui/gollum/cypress/e2e/features/ProjectRoster.feature"
     ],
     "Permissions should be visible": [
-      "ui/gollum/cypress/e2e/features/second.feature",
-      "ui/gollum/cypress/e2e/features/test.feature",
-      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+      "ui/gollum/cypress/e2e/features/ProjectRoster.feature"
     ],
     "Row 1 should be \"akdubpyucj\"": [
-      "ui/gollum/cypress/e2e/features/second.feature",
-      "ui/gollum/cypress/e2e/features/test.feature",
-      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+      "ui/gollum/cypress/e2e/features/ProjectRoster.feature"
     ],
-    "Project Roster": [
-      "ui/gollum/cypress/e2e/features/test.feature"
+    "I freak out": ["ui/gollum/cypress/e2e/features/ProjectRoster.feature"],
+    "I get happy": ["ui/gollum/cypress/e2e/features/ProjectRoster.feature"],
+    "Workflows List": ["ui/gollum/cypress/e2e/features/Workflows List.feature"],
+    "I am viewing a project containing workflows": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
     ],
-    "Candidate Results": [
-      "ui/gollum/cypress/e2e/features/third/amazing.feature"
+    "I am viewing the workflows list": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature",
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
     ],
-    "Feature 3": [
-      "ui/gollum/cypress/e2e/features/sub/feature3.feature"
+    "I should see 20 workflows": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "the previous page should not be navigable": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I choose page 2": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I should see records \"start-end\" with no total record count": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "page 3 should be navigable": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I navigate to the last page": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I should see records \"start-end of total\"": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "the next page should not be navigable": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I am viewing a project with no workflows": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I should see \"0-0 of 0\"": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "viewing a workflow in the list": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I select a workflow": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I should navigate to the Workflow Builder Page": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I should see \"There are currently no workflows in this project. Click to\"": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I should see \"create a new workflow\" in a link": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I activate a link with text \"create a new workflow\"": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I should navigate to the New Workflow Builder Page": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I activate a button with text \"New Workflow\"": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I am viewing a project within which I do not have write access": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "the \"New Workflow\" button should be disabled": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
+    ],
+    "I should not see \"create a new workflow\" in a link": [
+      "ui/gollum/cypress/e2e/features/Workflows List.feature"
     ]
   }
 }
