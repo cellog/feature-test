@@ -12,3 +12,4 @@ Feature: Feature 2
   Scenario: Table sorting
     When I choose the Project Roster tab
     Then Row 1 should be "akdubpyucj"
+    And I should have a ham sandwich
