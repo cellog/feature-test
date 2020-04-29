@@ -11,3 +11,4 @@ Feature: Feature 3
   Scenario: Table sorting
     When I choose the Project Roster tab
     Then Row 1 should be "akdubpyucj"
+    And "Created by" should be a "name"
